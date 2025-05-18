@@ -1,0 +1,13 @@
+{
+  "name": "@npm-monorepo/app2",
+  "version": "1.0.0",
+  "private": false,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19"
+  }
+} 

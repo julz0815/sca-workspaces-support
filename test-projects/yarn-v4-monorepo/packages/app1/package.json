@@ -1,0 +1,32 @@
+{
+  "name": "@yarn-v4-monorepo/app1",
+  "version": "1.0.0",
+  "private": false,
+  "dependencies": {
+    "express": "^4.18.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  },
+  "constraints": {
+    "typescript": "^5.3.3"
+  },
+  "packageExtensions": {
+    "express@*": {
+      "dependencies": {
+        "typescript": "*"
+      }
+    }
+  },
+  "dependenciesMeta": {
+    "lodash": {
+      "built": false
+    }
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+} 

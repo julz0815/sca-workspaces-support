@@ -1,0 +1,12 @@
+{
+  "name": "@yarn-monorepo/app2",
+  "version": "1.0.0",
+  "private": false,
+  "dependencies": {
+    "angular": "^17.2.0",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19"
+  }
+} 

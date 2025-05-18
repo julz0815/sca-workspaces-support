@@ -1,0 +1,42 @@
+{
+  "name": "yarn-v4-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "yarn@4.1.1",
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "libs/*"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.11.19"
+  },
+  "resolutions": {
+    "typescript": "^5.3.3"
+  },
+  "packageExtensions": {
+    "express@*": {
+      "dependencies": {
+        "typescript": "*"
+      }
+    }
+  },
+  "constraints": {
+    "typescript": "^5.3.3"
+  },
+  "dependenciesMeta": {
+    "lodash": {
+      "built": false
+    }
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  }
+} 

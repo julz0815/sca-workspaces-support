@@ -1,0 +1,32 @@
+{
+  "name": "@yarn-v4-monorepo/app2",
+  "version": "1.0.0",
+  "private": false,
+  "dependencies": {
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19"
+  },
+  "constraints": {
+    "typescript": "^5.3.3"
+  },
+  "packageExtensions": {
+    "vue@*": {
+      "dependencies": {
+        "typescript": "*"
+      }
+    }
+  },
+  "dependenciesMeta": {
+    "vue": {
+      "built": false
+    }
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+} 
